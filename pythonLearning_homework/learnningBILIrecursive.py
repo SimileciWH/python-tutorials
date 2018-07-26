@@ -67,3 +67,14 @@ def feibo2(month):
         fn = feibo2(month-1)+feibo2(month-2)
         print(fn)#通过查看打印的数据，可以发现数据的重复计算
         return fn
+
+#使用递归算法实现汉诺塔求解
+def hannuota(n,x,y,z):
+    if n == 1:
+        print(x,'-->',z)
+    else:
+        hannuota(n-1,x,z,y)
+        print(x,'-->',z)
+        hannuota(n-1,y,x,z)
+
+hannuota(3,'x','y','z')

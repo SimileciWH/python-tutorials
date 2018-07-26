@@ -1,3 +1,5 @@
+#!usr/bin/env python3
+#-*- coding : utf-8 -*-
 # 9-1,9-2test
 class Restaurant():
     def __init__(self,restaurant_name,restaurant_type):
