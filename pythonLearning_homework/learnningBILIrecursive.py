@@ -58,7 +58,7 @@ def feibo(month):
             listnum.append(fn)
     return listnum
 
-#使用地柜实现斐波那契额数列
+#使用递归实现斐波那契额数列
 def feibo2(month):
     fn = 1
     if month == 1 or month == 2:
