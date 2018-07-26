@@ -70,6 +70,9 @@ type(a)
 a = (1,)
 type(a)
 -----<class 'tuple'>
+a = 1,
+type(a)
+-----<class 'tuple'>
 link:https://www.bilibili.com/video/av4050443/?p=14
 元祖是可以被重组，del，in,not in...的
 """

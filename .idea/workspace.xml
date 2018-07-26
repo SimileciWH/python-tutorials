@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2ffad1b-05eb-4ee9-b1c6-d237b1dd9a61" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonLearning_homework/learnningBILIrecursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonLearning_homework/learnningBili_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonLearning_homework/learnningBili_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonLearning_homework/learnningBili_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,24 +16,27 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_work$numSCImaplot.coverage" NAME="numSCImaplot Coverage Results" MODIFIED="1532499128198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonLearning_homework" />
+    <SUITE FILE_PATH="coverage/python_work$learnningBili_3.coverage" NAME="learnningBili_3 Coverage Results" MODIFIED="1532574691136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonLearning_homework" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="learnningBili_2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningBili_2.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="learnningBILIrecursive.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningBILIrecursive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="83" selection-start-line="83" selection-end-line="83" selection-end-column="24" />
+            <state relative-caret-position="721">
+              <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="learnningFromBilibili.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningFromBilibili.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +45,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pythonLearning_homework/learnningBili_2.py" />
+        <option value="$PROJECT_DIR$/pythonLearning_homework/learnningBili_3.py" />
+        <option value="$PROJECT_DIR$/pythonLearning_homework/learnningBILIrecursive.py" />
       </list>
     </option>
   </component>
@@ -56,7 +63,7 @@
     <option name="x" value="1366" />
     <option name="y" value="-2" />
     <option name="width" value="1280" />
-    <option name="height" value="1442" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -109,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.learnningBili_2">
+  <component name="RunManager" selected="Python.learnningBili_3">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +155,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="learnningBili_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonLearning_homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonLearning_homework/learnningBili_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="numSCImaplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,9 +196,11 @@
     <list>
       <item itemvalue="Python.numSCImaplot" />
       <item itemvalue="Python.learnningBili_2" />
+      <item itemvalue="Python.learnningBili_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.learnningBili_3" />
         <item itemvalue="Python.learnningBili_2" />
         <item itemvalue="Python.numSCImaplot" />
       </list>
@@ -192,31 +220,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1280" height="1442" extended-state="4" />
+    <frame x="1366" y="-2" width="1280" height="1440" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50078124" side_tool="true" weight="0.36036035" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.36036035" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="5" weight="0.3295796" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32932332" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49921876" visible="true" weight="0.36015037" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2390625" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" sideWeight="0.49888143" weight="0.375" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.39864865" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39849624" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="right" x="0" y="0" width="590" height="1242" id="Documentation" sideWeight="0.50111854" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="right" x="0" y="0" width="590" height="1242" id="Documentation" order="5" sideWeight="0.50111854" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +253,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningBili_3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningBili_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1252">
@@ -237,9 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="2021" selection-start-line="2021" selection-end-line="2021" />
-          <folding>
-            <element signature="e#316#424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -247,9 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -270,10 +307,31 @@
     <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningFromBilibili.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_run_in_console.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningBili_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="83" selection-start-line="83" selection-end-line="83" selection-end-column="24" />
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningBili_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonLearning_homework/learnningBILIrecursive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
         </state>
       </provider>
     </entry>
