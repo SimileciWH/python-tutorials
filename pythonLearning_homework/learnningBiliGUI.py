@@ -24,7 +24,9 @@ link:http://easygui.sourceforge.net
 '''
 import easygui as eg
 # eg.msgbox('第一次使用GUI+python')
+
 import sys
+
 while 1:
     eg.msgbox("Hello, world!")
 
@@ -39,7 +41,7 @@ while 1:
 
     msg = "Do you want to continue?"
     title = "Please Confirm"
-    if eg.ccbox(msg, title):     # show a Continue/Cancel dialog
+    if eg.ccbox(msg,title):     # show a Continue/Cancel dialog
         pass  # user chose Continue
     else:
-        sys.exit(0)           # user chose Cancel
+        sys.exit()           # user chose Cancel
