@@ -184,3 +184,24 @@ pool.display()
 调试结果：
         There are 2 turtles and 23 fishes in pool
 """
+
+
+
+
+'''
+与类相关的BIF
+link:https://www.bilibili.com/video/av4050443/?p=41
+python可以通过 import sys   link:https://www.bilibili.com/video/av4050443/?p=52
+               sys.path查看python系统的模块，可以通过
+               sys.path.append()将新的位置加入到系统搜索路径中
+               
+python，当项目中模块过多时，可以通过打包将模块放到包中管理；
+新建文件夹，将需要放到一起的模块直接拷贝到该文件夹下
+注意！！！该文件夹下一定要包含一个__init__.py的文件，可以使空文件
+__init__.py是告诉python这是一个包文件
+
+调用包中的模块：
+import <pkg>.module as <...>
+from <pkg>.module import *
+
+'''
